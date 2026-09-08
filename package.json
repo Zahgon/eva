@@ -1,0 +1,38 @@
+{
+  "name": "eva-calc",
+  "version": "0.3.1",
+  "description": "Calculator REPL similar to bc(1)",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./fmt": "./src/fmt.js"
+  },
+  "bin": {
+    "eva": "./bin/eva.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "readme.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "calculator",
+    "repl",
+    "math",
+    "cli",
+    "bc"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "eva": "node ./bin/eva.js"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}

@@ -11,3 +11,14 @@ history.txt
 
 .envrc
 result
+
+# node
+node_modules/
+bun.lock
+
+# Task scaffolding artifacts (not part of the repo)
+golden.patch
+test.patch
+TRUTH.md
+instruction.md
+fix.patch
